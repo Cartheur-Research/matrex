@@ -1,9 +1,4 @@
-# <img src="https://raw.githubusercontent.com/versilov/matrex/master/docs/matrex_logo_dark_rounded.png" width="50px" /> Matrex
-
-[![Build Status](https://travis-ci.org/versilov/matrex.svg?branch=master)](https://travis-ci.org/versilov/matrex)
-[![Coverage Status](https://coveralls.io/repos/github/versilov/matrex/badge.svg?branch=master)](https://coveralls.io/github/versilov/matrex?branch=master)
-[![Inline docs](http://inch-ci.org/github/versilov/matrex.svg?branch=master)](http://inch-ci.org/github/versilov/matrex)
-[![hex.pm version](https://img.shields.io/hexpm/v/matrex.svg)](https://hex.pm/packages/matrex)
+## Matrex
 
 Fast matrix manipulation library for Elixir implemented in C native code with highly optimized CBLAS sgemm() used for matrix multiplication.
 
@@ -12,7 +7,7 @@ For example, vectorized linear regression is about 13 times faster, than Octave 
 It's also memory efficient, so you can work with large matrices,
 about billion of elements in size.
 
-Based on matrix code from https://gitlab.com/sdwolfz/experimental/-/tree/master/exlearn
+Based on matrix code [from](https://gitlab.com/sdwolfz/experimental/-/tree/master/exlearn)
 
 ## Benchmarks
 
